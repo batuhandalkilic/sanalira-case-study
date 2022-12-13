@@ -17,9 +17,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     //Set the fit size (Find your UI design, look at the dimensions of the device screen and fill it in,unit in dp)
     return ScreenUtilInit(
-      //Samsung S20FE viewport. Diğer ekranlara(TV-TABLET) göre oranlanyan paket.
-      designSize: const Size(412, 914),
-      minTextAdapt: true,
+      //Samsung S21FE viewport. Diğer ekranlara(TV-TABLET) göre oranlanyan paket.
+      designSize: const Size(384, 854),
 
       builder: (context, child) {
         return MaterialApp(

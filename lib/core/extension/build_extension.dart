@@ -62,6 +62,8 @@ extension SizedBoxExtension on BuildContext {
 extension RadiusExtension on BuildContext {
   BorderRadius get buttonRadius => BorderRadius.circular(8.r);
   BorderRadius get buttonRadiusx2 => BorderRadius.circular(16.r);
+  //SanalLira case study
+
 }
 
 extension NavigationExtension on BuildContext {
@@ -70,4 +72,11 @@ extension NavigationExtension on BuildContext {
 
 extension RandomColorDev on BuildContext {
   Color get randomColor => Color.fromRGBO(Random().nextInt(255), Random().nextInt(255), Random().nextInt(255), 1);
+}
+
+//SanalLira case study
+extension SanalLira on BuildContext {
+  BorderRadius get sanalLiraRadius40 => BorderRadius.only(topLeft: Radius.circular(40.r), topRight: Radius.circular(40.r));
+  BorderRadius get sanalLiraTextFormFielRadius => BorderRadius.circular(10.r);
+  EdgeInsets get sanalLiraPadding => EdgeInsets.only(top: 41.h, left: 15.w, right: 15.w);
 }
