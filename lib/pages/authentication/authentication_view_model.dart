@@ -15,7 +15,8 @@ abstract class AuthenticationViewModel extends ConsumerState<AuthenticationPage>
   final isVisibilityChangeProvider = StateProvider<bool>((ref) {
     return true;
   });
-  final isCheckChangeProvider = StateProvider<bool>((ref) {
-    return false;
-  });
 }
+
+final isCheckChangeProvider = StateProvider<bool>((ref) {
+  return false;
+});

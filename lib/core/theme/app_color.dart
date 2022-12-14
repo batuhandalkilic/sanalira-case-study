@@ -12,4 +12,6 @@ class AppColorStyle {
   Color get white => const Color.fromRGBO(255, 255, 255, 1);
   Color get twinkleBlue => const Color.fromRGBO(207, 212, 222, 1);
   Color get darkKnight => const Color.fromRGBO(20, 28, 45, 1);
+  Color get red => const Color.fromRGBO(246, 73, 73, 1);
+  Color get lightRed => const Color.fromRGBO(255, 246, 246, 1);
 }

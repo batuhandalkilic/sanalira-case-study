@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "675866104387",
+    "project_id": "sanalira-case-study",
+    "storage_bucket": "sanalira-case-study.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:675866104387:android:d3574df311c0f0925fbaf6",
+        "android_client_info": {
+          "package_name": "com.example.sanalira"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "675866104387-3s91lvhg1e4ud4urdqmbge5onpnsc79f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sanalira",
+            "certificate_hash": "46f3be7e1c471fdb39c62f4f0aec74ab4dd140d8"
+          }
+        },
+        {
+          "client_id": "675866104387-5u4mqof049qvd8gns588ud1kvdj44nji.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNF0_lunWY7hd__bv3rWepMHYD-iXA6X4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "675866104387-5u4mqof049qvd8gns588ud1kvdj44nji.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "675866104387-kkcceeg5g9mkjk1tlffg6suvv1ghuspc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.sanalira"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
